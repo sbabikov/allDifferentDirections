@@ -1,0 +1,24 @@
+{
+    "name": "sbabikov/all_different_directions",
+    "version": "1.0",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name":  "Sergii Babikov",
+            "email": "s.babikov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AllDifferentDirections\\": "src/",
+            "AllDifferentDirections\\Tests\\": "tests/"
+        }
+    }
+}
